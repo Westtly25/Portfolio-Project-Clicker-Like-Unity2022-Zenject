@@ -6,5 +6,8 @@
         UI_Button_Click_Sound,
         UI_Slider_Move_Sound,
         UI_Togle_Click_Sound,
+
+        Gameplay_Click_Sound,
+        Blacksmith_Work_Sound,
     }
 }
