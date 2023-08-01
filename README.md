@@ -1,8 +1,12 @@
-# Blacksmith clicker
-
-<h2> 🚀 &nbsp;Some Tools I Have Used and Learned</h2>
-<p align="left">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="45" height="45"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="bash" width="45" height="45"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="php" width="45" height="45"/>
-</p>
+# Portfolio Project - Blacksmith clicker Unity 2022 & Zenject
+## Description
+### Simple clicker game.
+## Technology stack : 
+  1. Zenject,
+  2. UniRx,
+  3. DoTween,
+  4. .Net c#,
+  5. Unity 2022,
+  6. Unity Addressables,
+  7. Unity UI Toolkit,
+  8. Unity Localization
