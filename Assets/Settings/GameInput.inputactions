@@ -1,0 +1,46 @@
+{
+    "name": "GameInput",
+    "maps": [
+        {
+            "name": "Gameplay action map",
+            "id": "b73465bd-b75d-4e44-8f4e-22dcb84c7ffe",
+            "actions": [
+                {
+                    "name": "Touch Clicks",
+                    "type": "Button",
+                    "id": "552554aa-f11b-4c1c-8df2-c08e8c3d5570",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "55d13b3f-8b6a-4fce-96ae-09b948c1975f",
+                    "path": "<Touchscreen>/touch*/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Game control scheme",
+                    "action": "Touch Clicks",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Game control scheme",
+            "bindingGroup": "Game control scheme",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

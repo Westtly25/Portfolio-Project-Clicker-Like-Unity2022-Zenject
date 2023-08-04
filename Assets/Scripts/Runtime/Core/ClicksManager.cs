@@ -20,5 +20,8 @@ namespace Assets.Scripts.Runtime.Core
 
     public class ClicksManager
     {
+        [SerializeField]
+        private Clicks clicks;
+
     }
 }

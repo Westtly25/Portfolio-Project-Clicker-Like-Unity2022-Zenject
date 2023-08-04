@@ -1,15 +1,15 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:VisualElement name="root-container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
-        <ui:VisualElement name="header" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-basis: 30%;">
-            <ui:ProgressBar value="22" title="my-progress" style="margin-left: 48px; margin-right: 48px; margin-top: 20px;" />
+        <ui:VisualElement name="header" style="flex-grow: 1; background-color: rgb(102, 67, 152); flex-basis: 10%;">
+            <ui:ProgressBar value="22" title="my-progress" name="complete-task-progress-bar" style="margin-left: 48px; margin-right: 48px; margin-top: 20px;" />
         </ui:VisualElement>
-        <ui:VisualElement name="body" style="flex-grow: 1; background-color: rgb(26, 6, 0); flex-basis: 48%;" />
-        <ui:VisualElement name="footer" style="flex-grow: 1; background-color: rgb(0, 0, 0); flex-basis: 80px;">
-            <ui:VisualElement name="tab-menu-container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row;">
-                <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-basis: 20%;" />
-                <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-basis: 20%;" />
-                <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-basis: 20%;" />
-                <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-basis: 20%;" />
+        <ui:VisualElement name="body" style="flex-grow: 1; background-color: rgba(255, 255, 255, 0); flex-basis: 80%;" />
+        <ui:VisualElement name="footer" style="flex-grow: 1; background-color: rgb(102, 67, 152); flex-basis: 10%;">
+            <ui:VisualElement name="tab-menu-container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-items: center; justify-content: space-between; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;">
+                <ui:Button display-tooltip-when-elided="true" name="tab-1" style="flex-basis: auto; flex-grow: 0; flex-shrink: 0; background-color: rgb(255, 179, 0); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-left-width: 8px; border-right-width: 8px; border-top-width: 8px; border-bottom-width: 8px; border-top-left-radius: 100%; border-bottom-left-radius: 100%; border-top-right-radius: 100%; border-bottom-right-radius: 100%; width: 150px; height: 150px;" />
+                <ui:Button display-tooltip-when-elided="true" name="tab-2" style="flex-basis: auto; flex-grow: 0; flex-shrink: 0; background-color: rgb(9, 157, 217); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-left-width: 8px; border-right-width: 8px; border-top-width: 8px; border-bottom-width: 8px; border-top-left-radius: 100%; border-bottom-left-radius: 100%; border-top-right-radius: 100%; border-bottom-right-radius: 100%; width: 150px; height: 150px;" />
+                <ui:Button display-tooltip-when-elided="true" name="tab-3" style="flex-basis: auto; flex-grow: 0; flex-shrink: 0; background-color: rgb(238, 124, 70); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-left-width: 8px; border-right-width: 8px; border-top-width: 8px; border-bottom-width: 8px; border-top-left-radius: 100%; border-bottom-left-radius: 100%; border-top-right-radius: 100%; border-bottom-right-radius: 100%; width: 150px; height: 150px;" />
+                <ui:Button display-tooltip-when-elided="true" name="tab-4" style="flex-basis: auto; flex-grow: 0; flex-shrink: 0; background-color: rgb(207, 215, 32); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-left-width: 8px; border-right-width: 8px; border-top-width: 8px; border-bottom-width: 8px; border-top-left-radius: 100%; border-bottom-left-radius: 100%; border-top-right-radius: 100%; border-bottom-right-radius: 100%; width: 150px; height: 150px;" />
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
