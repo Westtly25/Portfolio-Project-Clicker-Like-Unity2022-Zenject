@@ -5,7 +5,6 @@ namespace Assets.Code.Scripts.Runtime.Input_System
 {
     public class InputService
     {
-        private readonly Gamepl
 
         public InputService()
         {
