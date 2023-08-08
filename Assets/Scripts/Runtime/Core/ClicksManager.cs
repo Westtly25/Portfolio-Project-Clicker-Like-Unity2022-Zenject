@@ -23,5 +23,10 @@ namespace Assets.Scripts.Runtime.Core
         [SerializeField]
         private Clicks clicks;
 
+        private void OnClick(int amount)
+        {
+            if (amount > 0)
+                clicks.Increase(amount);
+        }
     }
 }
