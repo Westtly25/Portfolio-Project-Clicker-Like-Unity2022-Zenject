@@ -1,4 +1,5 @@
 ﻿using System;
+using Zenject;
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
@@ -9,6 +10,7 @@ namespace Assets.Code.Scripts.Runtime.Utilities
     {
         private readonly ICoroutineRunner _coroutineRunner;
 
+        [Inject]
         public SceneLoader(ICoroutineRunner coroutineRunner) =>
             _coroutineRunner = coroutineRunner;
 
