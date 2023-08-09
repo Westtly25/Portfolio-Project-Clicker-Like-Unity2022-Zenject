@@ -3,6 +3,7 @@ using Zenject;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
+using Cysharp.Threading.Tasks;
 using Assets.Code.Scripts.Runtime.Utilities;
 
 namespace Assets.Code.Scripts.Runtime.Save_System
@@ -17,7 +18,7 @@ namespace Assets.Code.Scripts.Runtime.Save_System
             this.logger = logger;
         }
 
-        public async Task<string> ReadFileAsync(string filePath)
+        public async UniTask<string> ReadFileAsync(string filePath)
         {
             try
             {
@@ -59,7 +60,7 @@ namespace Assets.Code.Scripts.Runtime.Save_System
             }
         }
 
-        public async Task WriteFileAsync(string filePath, string text)
+        public async UniTask WriteFileAsync(string filePath, string text)
         {
             try
             {
