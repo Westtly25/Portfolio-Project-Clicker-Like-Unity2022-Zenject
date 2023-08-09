@@ -6,12 +6,12 @@ namespace Assets.Scripts.Runtime.Room_Decorations
     public class DecorationObject : MonoBehaviour
     {
         [SerializeField]
-        private Sprite sprite;
-
-        [SerializeField]
         private SpriteRenderer spriteRenderer;
 
         private void Awake() =>
             spriteRenderer = GetComponent<SpriteRenderer>();
+
+        public void SetVisual(Sprite sprite) =>
+            spriteRenderer.sprite = sprite;
     }
 }
