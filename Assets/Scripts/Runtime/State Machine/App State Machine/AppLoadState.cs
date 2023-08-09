@@ -14,6 +14,6 @@ public class AppLoadState : State
     {
         base.OnEnter();
 
-        saveHandler.Load();
+        saveHandler.LoadAsync();
     }
 }

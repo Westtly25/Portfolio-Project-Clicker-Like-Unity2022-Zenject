@@ -17,10 +17,10 @@ namespace Assets.Code.Scripts.Runtime.Save_System
         public SaveHandler(FileHandler fileHandler) =>
             this.fileHandler = fileHandler;
 
-        public async void Save() =>
+        public async void SaveAsync() =>
             await fileHandler.WriteFileAsync(FILE_PATH, ConvertToString());
 
-        public async void Load()
+        public async void LoadAsync()
         {
             isLoaded = false;
 

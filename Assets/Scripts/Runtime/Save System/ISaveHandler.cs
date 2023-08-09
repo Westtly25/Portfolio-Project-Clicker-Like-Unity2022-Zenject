@@ -2,7 +2,7 @@
 {
     public interface ISaveHandler
     {
-        void Load();
-        void Save();
+        void LoadAsync();
+        void SaveAsync();
     }
 }

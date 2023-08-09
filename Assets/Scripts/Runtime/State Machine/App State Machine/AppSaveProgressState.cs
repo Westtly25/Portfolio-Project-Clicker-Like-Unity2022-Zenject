@@ -13,6 +13,6 @@ public class AppSaveProgressState : State
     {
         base.OnEnter();
 
-        saveHandler.Save();
+        saveHandler.SaveAsync();
     }
 }
