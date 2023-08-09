@@ -1,19 +1,14 @@
-﻿using Assets.Code.Runtime.Data;
-using Assets.Code.Scripts.Runtime.Data;
-using Assets.Code.Scripts.Runtime.State_Machine;
+﻿using Assets.Code.Scripts.Runtime.Data;
 
 namespace Assets.Code.Scripts.Runtime.State_Machine.Board_State_Machine
 {
     public class LevelInitializationState : State
     {
         private readonly PlayerScore score;
-        private readonly LevelData level;
 
-        public LevelInitializationState(PlayerScore playerScore,
-                                        LevelData level)
+        public LevelInitializationState(PlayerScore playerScore)
         {
             this.score = playerScore;
-            this.level = level;
         }
 
         public override void OnEnter()
