@@ -27,6 +27,7 @@ namespace Assets.Code.Scripts.Runtime.Installers
                      .NonLazy();
 
             Container.BindMemoryPool<ClickPoolObject, ClicksPool>()
+                     .WithInitialSize(10)
                      .WithMaxSize(20)
                      .NonLazy();
         }
